@@ -14,11 +14,11 @@
                 <!-- Menú lateral -->
                 <div class="col-md-3">
                     <br>
-                    <h2>Reports List</h2>
+                    <h2>Assignments List</h2>
                     <table class="table table-bordered">
                         <thead>
                             <tr> 
-                                <th class="text-center">Reports</th>
+                                <th class="text-center">Assignments</th>
                             </tr>
                         </thead>
                     </table>
@@ -27,33 +27,42 @@
                 <!-- Contenido principal -->
                 <div class="col-md-9">
                     <br>
-                    <h2>Add Report</h2>
+                    <h2>Add Assignments</h2>
                     <form action="procesarIngreso.jsp" method="post">
                         <div class="form-group">
-                            <label for="userId">User Id:</label>
-                            <input type="text" class="form-control" id="userId" name="userId" required style="width: 250px;">
+                            <label for="">Assignment Name:</label>
+                            <input type="text" class="form-control" id="" name="" required style="width: 250px;">
                         </div>
                         <div class="form-group">
                             <label for="projectId">Project Id:</label>
-                            <input type="text" class="form-control" id="projectId" name="projectId" required style="width: 250px;">
+                            <input type="text" class="form-control" id="userId" name="userId" required style="width: 250px;">
                         </div>
                         <div class="form-group">
-                            <label for="date">Date:</label>
-                            <input type="text" class="form-control" id="date" name="date" required style="width: 250px;">
+                            <label for="AssignedHours">Full name:</label>
+                            <input type="text" class="form-control" id="AssignedHours" name="AssignedHours" required style="width: 250px;">
                         </div>
                         <div class="form-group">
-                            <label for="description">Description:</label>
-                            <input type="text" class="form-control" id="description" name="description" required style="width: 250px;">
+                            <label for="bonus">Bonus:</label>
+                            <input type="text" class="form-control" id="bonus" name="bonus" required style="width: 250px;">
                         </div>
+                        <div class="form-group">
+                            <label for="assign">Description:</label>
+                            <input type="text" class="form-control" id="assign" name="assign" required style="width: 250px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="start">Time:</label>
+                            <input type="text" class="form-control" id="bonus" name="bonus" required style="width: 250px;">
+                        </div>
+                        
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
 
                     <hr>
 
-                    <h2>Delete Reports</h2>
+                    <h2>Delete Assignments</h2>
                     <form action="procesarEliminacion.jsp" method="post">
                         <div class="form-group">
-                            <label for="usuarioEliminar">Id of the project:</label>
+                            <label for="usuarioEliminar">Project Id:</label>
                             <input type="text" class="form-control" id="usuarioEliminar" name="usuarioEliminar" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-danger">Delete</button>

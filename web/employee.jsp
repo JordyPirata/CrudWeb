@@ -14,7 +14,7 @@
                 <!-- Menú lateral -->
                 <div class="col-md-3">
                     <br>
-                    <h2>Employees list</h2>
+                    <h2>Employees List</h2>
                     <table class="table table-bordered">
                         <thead>
                             <tr> 
@@ -34,19 +34,19 @@
                             <input type="text" class="form-control" id="userId" name="userId" required style="width: 250px;">
                         </div>
                         <div class="form-group">
-                            <label for="projectId">Full name:</label>
-                            <input type="password" class="form-control" id="projectId" name="projectId" required style="width: 250px;">
+                            <label for="name">Full name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required style="width: 250px;">
                         </div>
                         <div class="form-group">
-                            <label for="description">Payroll:</label>
-                            <input type="password" class="form-control" id="description" name="description" required style="width: 250px;">
+                            <label for="nomina">Payroll:</label>
+                            <input type="text" class="form-control" id="nomina" name="nomina" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
 
                     <hr>
 
-                    <h2>Delete User</h2>
+                    <h2>Delete Employee</h2>
                     <form action="procesarEliminacion.jsp" method="post">
                         <div class="form-group">
                             <label for="usuarioEliminar">Name of the employee:</label>

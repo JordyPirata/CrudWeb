@@ -14,7 +14,7 @@
                 <!-- Menú lateral -->
                 <div class="col-md-3">
                     <br>
-                    <h2>Reports list</h2>
+                    <h2>Reports List</h2>
                     <table class="table table-bordered">
                         <thead>
                             <tr> 
@@ -35,22 +35,22 @@
                         </div>
                         <div class="form-group">
                             <label for="projectId">Project Id:</label>
-                            <input type="password" class="form-control" id="projectId" name="projectId" required style="width: 250px;">
+                            <input type="text" class="form-control" id="projectId" name="projectId" required style="width: 250px;">
                         </div>
                         <div class="form-group">
                             <label for="date">Date:</label>
-                            <input type="password" class="form-control" id="date" name="date" required style="width: 250px;">
+                            <input type="text" class="form-control" id="date" name="date" required style="width: 250px;">
                         </div>
                         <div class="form-group">
                             <label for="description">Description:</label>
-                            <input type="password" class="form-control" id="description" name="description" required style="width: 250px;">
+                            <input type="text" class="form-control" id="description" name="description" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
 
                     <hr>
 
-                    <h2>Delete User</h2>
+                    <h2>Delete Reports</h2>
                     <form action="procesarEliminacion.jsp" method="post">
                         <div class="form-group">
                             <label for="usuarioEliminar">Id of the project:</label>

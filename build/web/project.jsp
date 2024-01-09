@@ -14,7 +14,7 @@
                 <!-- Menú lateral -->
                 <div class="col-md-3">
                     <br>
-                    <h2>Projects list</h2>
+                    <h2>Projects List</h2>
                     <table class="table table-bordered">
                         <thead>
                             <tr> 
@@ -35,7 +35,7 @@
                         </div>
                         <div class="form-group">
                             <label for="responsibleName">Name of the responsible:</label>
-                            <input type="password" class="form-control" id="responsibleName" name="responsibleName" required style="width: 250px;">
+                            <input type="text" class="form-control" id="responsibleName" name="responsibleName" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>

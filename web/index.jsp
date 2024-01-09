@@ -14,7 +14,7 @@
                 <!-- Menú lateral -->
                 <div class="col-md-3">
                     <br>
-                    <h2>Users list</h2>
+                    <h2>Users List</h2>
                     <table class="table table-bordered">
                         <thead>
                             <tr> 
@@ -35,7 +35,7 @@
                         </div>
                         <div class="form-group">
                             <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="password" name="password" required style="width: 250px;">
+                            <input type="text" class="form-control" id="password" name="password" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>

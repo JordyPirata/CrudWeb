@@ -14,11 +14,11 @@
                 <!-- Menú lateral -->
                 <div class="col-md-3">
                     <br>
-                    <h2>Users list</h2>
+                    <h2>Reports list</h2>
                     <table class="table table-bordered">
                         <thead>
                             <tr> 
-                                <th class="text-center">Users</th>
+                                <th class="text-center">Reports</th>
                             </tr>
                         </thead>
                     </table>
@@ -27,26 +27,33 @@
                 <!-- Contenido principal -->
                 <div class="col-md-9">
                     <br>
-                    <h2>Add User</h2>
-                    <form action="SvUser" method="post">
+                    <h2>Add Report</h2>
+                    <form action="procesarIngreso.jsp" method="post">
                         <div class="form-group">
-                            <label for="userName">User:</label>
-                            <input type="text" class="form-control" id="userName" name="userName" required style="width: 250px;">
+                            <label for="userId">User Id:</label>
+                            <input type="text" class="form-control" id="userId" name="userId" required style="width: 250px;">
                         </div>
                         <div class="form-group">
-                            <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="password" name="password" required style="width: 250px;">
+                            <label for="projectId">Project Id:</label>
+                            <input type="password" class="form-control" id="projectId" name="projectId" required style="width: 250px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date:</label>
+                            <input type="password" class="form-control" id="date" name="date" required style="width: 250px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description:</label>
+                            <input type="password" class="form-control" id="description" name="description" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
 
                     <hr>
-                    
-                    <!-- Checaaar los for de esteeee -->
+
                     <h2>Delete User</h2>
-                    <form action="SvUser" method="post">
+                    <form action="procesarEliminacion.jsp" method="post">
                         <div class="form-group">
-                            <label for="usuarioEliminar">Name of user to delete:</label>
+                            <label for="usuarioEliminar">Id of the project:</label>
                             <input type="text" class="form-control" id="usuarioEliminar" name="usuarioEliminar" required style="width: 250px;">
                         </div>
                         <button type="submit" class="btn btn-danger">Delete</button>
@@ -56,3 +63,4 @@
         </div>
     </body>
 </html>
+

@@ -10,5 +10,5 @@ public class Assignment {
     public Assignment(){
 
     }
-    
+    public void setAssingnmentId (int assignmentId) { }
 }

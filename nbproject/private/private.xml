@@ -3,8 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/jordypirata/NetBeansProjects/Crud/web/index.jsp</file>
+            <file>file:/home/jordypirata/NetBeansProjects/Crud/src/java/Models/Assignment.java</file>
+            <file>file:/home/jordypirata/NetBeansProjects/Crud/src/java/Models/Employee.java</file>
             <file>file:/home/jordypirata/NetBeansProjects/Crud/src/java/Models/User.java</file>
             <file>file:/home/jordypirata/NetBeansProjects/Crud/web/navbar.jsp</file>
+            <file>file:/home/jordypirata/NetBeansProjects/Crud/src/java/Servlets/SvUser.java</file>
         </group>
     </open-files>
 </project-private>
